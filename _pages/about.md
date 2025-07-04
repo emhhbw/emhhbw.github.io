@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Personal Introduction"
-excerpt: "Emhhbw"
+
 author_profile: true
 redirect_from: 
   - /about/
@@ -18,13 +18,7 @@ Education
 *  **Qufu Normal University, China (Sept 2019 - Jun 2023)**
 	* B.E., Computer Science and Technology
 
-'''
-* **ShanghaiTech University, China (Aug. 2018 - Now)**
-	* M.S., Computer Science
-	* Advisor: [Shenghua Gao](https://cs.hku.hk/people/academic-staff/gaosh)
-*  **Xiamen University, China (Aug 2014 - Jun 2018)**
-	* B.E., Software Engineering
-'''
+
 
 Selected publications
 ======
