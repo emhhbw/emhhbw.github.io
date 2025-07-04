@@ -24,6 +24,7 @@ Education
 	* Advisor: [Shenghua Gao](https://cs.hku.hk/people/academic-staff/gaosh)
 *  **Xiamen University, China (Aug 2014 - Jun 2018)**
 	* B.E., Software Engineering
+'''
 
 Selected publications
 ======
