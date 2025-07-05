@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Msa-Splatting">
+  <meta name="keywords" content="Msa-Splatting">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mip-Splatting</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./static/css/bootstrap-4.4.1.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+  
+  
+  
+  
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/tipag.png">
+
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="./static/js/app.js"></script>
+  <script src="./static/js/video_comparison.js"></script>
+
+  <link rel="stylesheet" href="./static/css/dics.original.css">
+  <script src="./static/js/event_handler.js"></script>
+  <script src="./static/js/dics.original.js"></script>
+  <script>
+    function openDemo(demoName) {
+      window.location = 'https://emhhbw.github.io/Msa-splatting-demo/' + demoName + '.html';
+    }
+  </script>
+
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title" style="margin-bottom: 0"><strong>Msa-Splatting</strong></h1>
+          <h2 class="title is-2 publication-title" style="margin-top: 0; margin-bottom: 0">test-test</h2>
+          <br>
+          <h2 class="title is-4" style="margin-top: 0; margin-bottom: 0">test (test)</h2>
+          <br>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://emhhbw.github.io/">emhhbw</a><sup>1</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block">
+              <a href="https://github.com">test1</a><sup>2</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block">
+              <a href="https://github.com">test1</a><sup>3</sup>
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block">
+              <a href="https://github.com">test1</a><sup>1</sup>
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block">
+              <a href="https://github.com">test1</a><sup>3</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>s1</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block"><sup>2</sup>s2</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <br>
+            <span class="author-block"><sup>3</sup>s3</span>&nbsp;&nbsp;&nbsp;&nbsp;
+
+            
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+<!--              <span class="link-block">-->
+<!--                <a href=""-->
+<!--                   class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                      <i class="ai ai-arxiv"></i>-->
+<!--                  </span>-->
+<!--                  <span>arXiv</span>-->
+<!--                </a>-->
+<!--              </span>-->
+          
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark disabled">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://emhhbw.github.io/Msa-splatting-demo/"
+                   class="external-link button is-normal is-rounded is-dark disabled">
+                  <span class="icon">
+                      <i class="fab fa-dribbble"></i>
+                  </span>
+                  <span>Viewer</span>
+                  </a>
+              </span>
+  
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+      
+          <video class="video" width="100%" id="xyalias6" loop playsinline autoplay muted src="resources/Mip-Splatting vs. Ours Flowers.mp4" onplay="resizeAndPlay(this)" style="height: 0px;"></video>
+          <canvas height=0 class="videoMerge" id="xyalias6Merge"></canvas>
+      
+          <h2 class="subtitle has-text-centered" style="margin-top: 15px">
+            TL;DR: We introduce a 3D smoothing filter and a 2D Mip filter for 3D Gaussian Splatting (3DGS), eliminating multiple artifacts and achieving alias-free renderings.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="margin-top: -30px">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recently, test.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+    
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Method. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3" style="margin-top: -20px">Overview</h2>
+
+        <img src="./resources/overview.png" class="center">
+        <div class="content has-text-justified">
+          <p style="margin-top: 30px">
+             test2.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <!--/ Animation. -->
+    
+    <!-- Paper video. -->
+<!--    <div class="columns is-centered has-text-centered">-->
+<!--      <div class="column is-four-fifths">-->
+<!--        <h2 class="title is-3">Video</h2>-->
+<!--        <div class="publication-video">-->
+<!--          <iframe src=""-->
+<!--                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+    <!--/ Paper video. -->
+
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Results. -->
+    <div class="columns is-centered ">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered" style="margin-top: -30px">Results</h2>
+
+        <h3 class="title is-4">Comparison wtih 3DGS</h3>
+        <div class="content has-text-justified">
+          <p>
+            test3.
+          </p>
+        </div>
+        
+        <div class="content has-text-centered">
+          <video class="video" width="100%" id="xyalias1" loop playsinline autoplay muted src="resources/3DGS_vs_Ours_Bicycle.mp4" onplay="resizeAndPlay(this)" style="height: 0px;"></video>
+          <canvas height=0 class="videoMerge" id="xyalias1Merge"></canvas>
+        </div>
+        
+
+        <h3 class="title is-4">Comparison wtih Mip-Splatting</h3>
+        <div class="content has-text-justified">
+          <p>
+            test4.
+          </p>
+        </div>
+        
+
+
+        <div class="content has-text-centered">
+          <video class="video" width="100%" id="xyalias9" loop playsinline autoplay muted src="resources/Mip-Splatting_vs_Ours_Ship.mp4" onplay="resizeAndPlay(this)" style="height: 0px;"></video>
+          <canvas height=0 class="videoMerge" id="xyalias9Merge"></canvas>
+        </div>
+
+        <div class="content has-text-justified">
+          <p>
+             test4.
+          </p>
+        </div>
+
+        <div class="container">
+          <ul class="nav nav-tabs nav-fill nav-justified" id="object-scale-recon">
+              <li class="nav-item">
+                <a class="nav-link active" onclick="objectSceneEvent(0)">room</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="objectSceneEvent(1)">counter</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="objectSceneEvent(2)">kitchen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="objectSceneEvent(3)">bonsai</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="objectSceneEvent(4)">bicycle</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="objectSceneEvent(5)">flowers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="objectSceneEvent(6)">garden</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="objectSceneEvent(7)">stump</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="objectSceneEvent(8)">treehill</a>
+              </li>
+          </ul>
+          <div class="b-dics" style="width: 600px; font-weight: 600;">
+              <img src="resources/360image1/room_0_gs.png" alt="3DGS">
+              <img src="resources/360image1/room_0_mip.png" alt="Mip-Splatting">
+              <img src="resources/360image1/room_0_ours.png" alt="ours">
+              <img src="resources/360image1/room_0_gt.png" alt="GT">
+          </div>
+        </div>
+
+        <br>
+
+        <h3 class="title is-4">test123</h3>
+        <div class="content has-text-justified">
+          <p>
+            test123.
+          </p>
+        </div>
+        
+        <div class="content has-text-centered">
+          <video class="video" width="100%" id="xyalias3" loop playsinline autoplay muted src="resources/3DGS_vs_Ours_Bicycle.mp4" onplay="resizeAndPlay(this)" style="height: 0px;"></video>
+          <canvas height=0 class="videoMerge" id="xyalias3Merge"></canvas>
+        </div>
+
+
+
+        <h3 class="title is-4">test12</h3>
+        <div class="content has-text-justified">
+          <p>
+            test12.
+          </p>
+        </div>
+        
+
+        <div class="container">
+          <ul class="nav nav-tabs nav-fill nav-justified" id="ablation-3d-filter">
+              <li class="nav-item">
+                <a class="nav-link active" onclick="ablation3DEvent(0)">room</a>
+              </li>
+
+          </ul>
+          <div class="b-dics" style="width: 600px; font-weight: 600;">
+              <img src="resources/360image2/room_0_gs.png" alt="3DGS">
+              <img src="resources/360image2/room_0_mip.png" alt="Mip-Splatting">
+              <img src="resources/360image2/room_0_ours.png" alt="ours">
+              <img src="resources/360image2/room_0_gt.png" alt="GT">
+              
+          </div>
+        </div>
+
+        <br><br>
+
+        <h3 class="title is-4">Real-Time Interactive Viewer</h3>
+        <div class="content has-text-justified">
+          <p>
+            test <a href="https://emhhbw.github.io/Msa-splatting-demo/">viewer</a>.
+          </p>
+        </div>
+
+        <div class="content-row">
+          <div class="demo-scene-panel" onclick="openDemo('bicycle')">
+            <img src="resources/images/bicycle.png" class="demo-scene-panel-image">
+            <span class="small-title">Bicycle</span>
+          </div>
+  
+          <div class="demo-scene-panel" onclick="openDemo('garden')">
+                <img src="resources/images/garden.png" class="demo-scene-panel-image">
+                <span class="small-title">Garden</span>
+            </div>
+            <div class="demo-scene-panel" onclick="openDemo('stump')">
+                <img src="resources/images/stump.png" class="demo-scene-panel-image">
+                <span class="small-title">Stump</span>
+            </div>
+            <div class="demo-scene-panel" onclick="openDemo('kitchen')">
+              <img src="resources/images/kitchen.png" class="demo-scene-panel-image">
+              <span class="small-title">Kitchen</span>
+            </div>
+
+          </div>
+
+          <div class="content-row">
+            <div class="demo-scene-panel" onclick="openDemo('chair')">
+              <img src="resources/images/chair.png" class="demo-scene-panel-image">
+              <span class="small-title">Chair</span>
+            </div>
+            <div class="demo-scene-panel" onclick="openDemo('ficus')">
+              <img src="resources/images/ficus.png" class="demo-scene-panel-image">
+              <span class="small-title">Ficus</span>
+            </div>
+            <div class="demo-scene-panel" onclick="openDemo('lego')">
+              <img src="resources/images/lego.png" class="demo-scene-panel-image">
+              <span class="small-title">Lego</span>
+            </div>
+            <div class="demo-scene-panel" onclick="openDemo('ship')">
+              <img src="resources/images/ship.png" class="demo-scene-panel-image">
+              <span class="small-title">Ship</span>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{Yu2023MipSplatting,
+  author    = {Yu, Zehao and Chen, Anpei and Huang, Binbin and Sattler, Torsten and Geiger, Andreas},
+  title     = {Mip-Splatting: Alias-free 3D Gaussian Splatting},
+  journal   = {Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2024},
+}</code></pre>
+  </div>
+</section>
+
+<section class="section" id="Acknowledgements">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Acknowledgements</h2>
+    ZY, AC and AG are supported by the ERC Starting Grant LEGO-3D (850533) and DFG EXC number 2064/1 - project number 390727645.
+    TS is supported by a Czech Science Foundation (GACR) EXPRO grant (UNI-3D, grant no. 23-07973X).
+    We also thank Christian Reiser for insightful discussions during the preparation of the draft.
+  </div>
+</section>
+
+<section class="section" id="References">
+  <div class="container is-max-desktop content">
+
+        <h3 class="title is-4">References</h3>
+        <div class="content has-text-justified">
+          <ul>
+            <li>
+              <a href="https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/" target="_blank">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a>
+            </li>
+            <li>
+              <a href="https://www.cs.umd.edu/~zwicker/publications/EWASplatting-TVCG02.pdf" target="_blank">EWA Splatting</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+            This webpage template is from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. 
+            We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing this template. 
+            The video comparison with sliding bar is from <a href="https://dorverbin.github.io/refnerf/">Ref-NeRF</a>. 
+            The image comparison with sliding bar is from <a href="https://research.nvidia.com/labs/dir/neuralangelo/">Neuralangelo</a>. 
+          </p>
+        </div>
+      </div>
+          <p></p>
+        </div>
+      </div>
+</footer>
+
+</body>
+</html>
