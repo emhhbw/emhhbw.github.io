@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Msa-Splatting Demo - Mic</title>
+  <title>Msa-Splatting Demo - Flowers</title>
   <script type="text/javascript" src="js/util.js"></script>
   <script type="text/javascript" src="enable-threads.js"></script>
 
@@ -20,7 +20,7 @@
   <style>
 
     body {
-      background-color: #ffffff;
+      background-color: #000000;
       height: 100vh;
       margin: 0px;
     }
@@ -34,13 +34,13 @@
     import * as GaussianSplats3D from 'gaussian-splats-3d';
     import * as THREE from 'three';
     const viewer = new GaussianSplats3D.Viewer({
-      'cameraUp': [0, 0, 1],
-      'initialCameraPosition': [0, -4, 2],
-      'initialCameraLookAt': [0, 0, 0],
+      'cameraUp': [0.40324, -0.74259, 0.53475],
+      'initialCameraPosition': [-2.13080, -0.45525, -1.30999],
+      'initialCameraLookAt': [-0.11337, -0.02652, -0.26986],
       'halfPrecisionCovariancesOnGPU': true
     });
     
-    let path = 'https://huggingface.co/datasets/emhhbw/Msa/resolve/main/mic.ksplat'
+    let path = 'https://huggingface.co/datasets/emhhbw/Msa/resolve/main/flowers.ksplat'
     viewer.loadFile(path)
     .then(() => {
         viewer.start();

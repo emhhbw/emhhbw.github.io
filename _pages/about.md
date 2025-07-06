@@ -25,5 +25,5 @@ Selected publications
 * **[Splatting](https://emhhbw.github.io/Msa-splatting/)**
 	* **1**, 2, 3, 4, 5
 	* IEEE (**TMM**), 2025 
-	* [Project](https://emhhbw.github.io/Msa-splatting), [Paper](https://www.baidu.com/), [Code](https://www.baidu.com/), [Demo](https://niujinshuchong.github.io/Msa-splatting-demo)
+	* [Project](https://emhhbw.github.io/Msa-splatting), [Paper](https://www.baidu.com/), [Code](https://www.baidu.com/), [Demo](https://emhhbw.github.io/Msa-splatting-demo)
 
