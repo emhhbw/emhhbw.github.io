@@ -71,31 +71,31 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title" style="margin-bottom: 0"><strong>Msa-Splatting</strong></h1>
-          <h2 class="title is-2 publication-title" style="margin-top: 0; margin-bottom: 0">test-test</h2>
+          <h2 class="title is-2 publication-title" style="margin-top: 0; margin-bottom: 0">Multi-Scale Adaptive Gaussian Splatting for High-Fidelity View Synthesis</h2>
           <br>
-          <h2 class="title is-4" style="margin-top: 0; margin-bottom: 0">test (test)</h2>
+<!--          <h2 class="title is-4" style="margin-top: 0; margin-bottom: 0">test (test)</h2> -->
           <br>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://emhhbw.github.io/">emhhbw</a><sup>1</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://emhhbw.github.io/">Yaoyong Zhao</a><sup>1</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
             <span class="author-block">
-              <a href="https://github.com">test1</a><sup>2</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://github.com">Guoqing Chen</a><sup>1</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
             <span class="author-block">
-              <a href="https://github.com">test1</a><sup>3</sup>
+              <a href="https://github.com">Boying Wu</a><sup>2</sup>
             </span>&nbsp;&nbsp;&nbsp;&nbsp;
             <span class="author-block">
-              <a href="https://github.com">test1</a><sup>1</sup>
+              <a href="https://github.com">Qiyu Jin</a><sup>1</sup>
             </span>&nbsp;&nbsp;&nbsp;&nbsp;
             <span class="author-block">
-              <a href="https://github.com">test1</a><sup>3</sup>
+              <a href="https://github.com">Tieyong Zeng</a><sup>3</sup>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>s1</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            <span class="author-block"><sup>2</sup>s2</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block"><sup>1</sup>Inner Mongolia University</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block"><sup>2</sup>Harbin Institute of Technology</span>&nbsp;&nbsp;&nbsp;&nbsp;
             <br>
-            <span class="author-block"><sup>3</sup>s3</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block"><sup>3</sup>The Chinese University of Hong Kong</span>&nbsp;&nbsp;&nbsp;&nbsp;
 
             
           </div>
@@ -166,7 +166,7 @@
           <canvas height=0 class="videoMerge" id="xyalias6Merge"></canvas>
 
           <h2 class="subtitle has-text-centered" style="margin-top: 15px">
-            test.
+            In the flowers scene of the Mip-NeRF360 dataset, both our method and Mip-Splatting are trained on images downsampled by a factor of eight, and the reconstruction results are compared.
           </h2>
         </div>
       </div>
@@ -184,7 +184,7 @@
         <h2 class="title is-3" style="margin-top: -30px">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Recently, test.
+            3D Gaussian Splatting (3DGS) has revolutionized novel view synthesis with real-time rendering and high-quality reconstruction. However, its performance degrades under varying scales, causing aliasing and dilation artifacts. To address these challenges, we introduce Msa-Splatting, an enhanced adaptive Gaussian splatting method designed for high-fidelity multi-scale novel view synthesis. Our approach reimagines the Gaussian adaptive control process with a novel multi-fold splitting and cloning mechanism, which optimizes Gaussian properties and reduces spurious artifacts by halving the densification frequency. We further mitigate aliasing in scaled-down renderings with a weighted alpha blending sampling technique, ensuring accurate representation of high-frequency details. To eliminate scale-mismatch artifacts, we introduce 2D variable dilation Gaussians, which dynamically adjust dilation based on the rendering scale. Msa-Splatting significantly enhances the fidelity and adaptability of Gaussian-based rendering, achieving state-of-the-art performance in multi-scale novel view synthesis.  Extensive quantitative and qualitative evaluations demonstrate the efficacy of our approach, showcasing its ability to produce perceptually superior renderings with reduced artifacts across varying scales, thus establishing a robust framework for future advancements in scalable rendering technologies.
           </p>
         </div>
       </div>
@@ -208,7 +208,7 @@
         <img src="./resources/overview.png" class="center">
         <div class="content has-text-justified">
           <p style="margin-top: 30px">
-             test2.
+              Proposed Msa-Splatting Architecture. Illustrates the optimization process of Gaussian clusters during training, followed by rendering the desired output upon completion.
           </p>
         </div>
 
@@ -243,7 +243,7 @@
         <h3 class="title is-4">Comparison wtih 3DGS</h3>
         <div class="content has-text-justified">
           <p>
-            test3.
+<!--            test3.-->
           </p>
         </div>
         
@@ -256,7 +256,7 @@
         <h3 class="title is-4">Comparison wtih Mip-Splatting</h3>
         <div class="content has-text-justified">
           <p>
-            test4.
+<!--            test4.-->
           </p>
         </div>
         
@@ -269,7 +269,7 @@
 
         <div class="content has-text-justified">
           <p>
-             test4.
+<!--             test4.-->
           </p>
         </div>
 
@@ -356,7 +356,7 @@
         <h3 class="title is-4">Real-Time Interactive Viewer</h3>
         <div class="content has-text-justified">
           <p>
-            test <a href="https://emhhbw.github.io/Msa-splatting-demo/">viewer</a>.
+            Here, we provide an interactive real-time viewer showcasing several scenes reconstructed by our method. Please click on the corresponding scene images in your browser to enter. For more scenes, please refer to our <a href="https://emhhbw.github.io/Msa-splatting-demo/">viewer</a>.
           </p>
         </div>
 
@@ -407,7 +407,7 @@
   </div>
 </section>
 
-<section class="section" id="BibTeX">
+<!--<section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{123,
@@ -424,7 +424,7 @@
     <h2 class="title">Acknowledgements</h2>
     123
   </div>
-</section>
+</section>  -->
 
 <section class="section" id="References">
   <div class="container is-max-desktop content">
@@ -434,6 +434,9 @@
           <ul>
             <li>
               <a href="https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/" target="_blank">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a>
+            </li>
+            <li>
+              <a href="https://drive.google.com/file/d/1Q7KgGbynzcIEyFJV1I17HgrYz6xrOwRJ/view?usp=sharing" target="_blank">Mip-Splatting: Alias-free 3D Gaussian Splatting</a>
             </li>
             <li>
               <a href="https://www.cs.umd.edu/~zwicker/publications/EWASplatting-TVCG02.pdf" target="_blank">EWA Splatting</a>
