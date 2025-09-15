@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working toward the M.S. degree in Artificial Intelligence with the College of Computer(College of Software), College of Artificial Intelligence, Inner Mongolia University, Hohhot, China. I graduated with a bachelor's degree from Qufu Normal University.  My research focuses on Computer Vision and Machine Learning, espically in 3D 3D Reconstruction and Object Detection.
+I am currently working toward the M.S. degree in Artificial Intelligence with the College of Computer(College of Software), College of Artificial Intelligence, Inner Mongolia University, Hohhot, China. I graduated with a bachelor's degree from Qufu Normal University.  My research focuses on Computer Vision and Machine Learning, espically in 3D Reconstruction and Object Detection.
 
 Education
 ======
