@@ -23,8 +23,8 @@ Education
 Selected publications
 ======
 * **[Msa-Splatting: Multi-Scale Adaptive Gaussian Splatting for High-Fidelity View Synthesis](https://emhhbw.github.io/Msa-splatting/)**
-	<!--* **1**, 2, 3, 4, 5-->
-	<!--* IEEE (**TMM**), 2025--> 
+	* **Yaoyong Zhao**, Guoqing Chen, Boying Wu, Qiyu Jin, Tieyong Zeng
+	* IEEE Transactions on Multimedia
 	<!--* [Project](https://emhhbw.github.io/Msa-splatting), [Paper](https://www.baidu.com/), [Code](https://www.baidu.com/), [Demo](https://emhhbw.github.io/Msa-splatting-demo)-->
 
 	* [Project](https://emhhbw.github.io/Msa-splatting)
