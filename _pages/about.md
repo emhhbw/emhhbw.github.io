@@ -13,7 +13,7 @@ I am currently working toward the M.S. degree in Artificial Intelligence with th
 Education
 ======
 * **Inner Mongolia University, China (Sept. 2023 - Now)**
-	* M.S., Artificial Intelligence
+	* M.E., Artificial Intelligence
 	* Advisor: Qiyu Jin
 *  **Qufu Normal University, China (Sept 2019 - Jun 2023)**
 	* B.E., Computer Science and Technology
