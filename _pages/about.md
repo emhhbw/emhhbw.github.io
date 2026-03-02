@@ -26,5 +26,6 @@ Selected publications
 	* **Yaoyong Zhao**, Guoqing Chen, Boying Wu, Qiyu Jin, Tieyong Zeng
 	* IEEE Transactions on Multimedia
 	<!--* [Project](https://emhhbw.github.io/Msa-splatting), [Paper](https://www.baidu.com/), [Code](https://www.baidu.com/), [Demo](https://emhhbw.github.io/Msa-splatting-demo)-->
+	* [Paper](https://ieeexplore.ieee.org/document/11415697)
 	* [Project](https://emhhbw.github.io/Msa-splatting)
 	* [Demo](https://emhhbw.github.io/Msa-splatting-demo)
